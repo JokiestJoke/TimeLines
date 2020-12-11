@@ -1,0 +1,25 @@
+/* A container for nav bar elements */
+header {
+    top: 0;
+    background-color: whitesmoke;
+    border: 1px solid black;
+
+} 
+
+ul { 
+    font-size: 1em;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navBarItem{
+    margin: auto 15px auto 15px;
+    align-items: space-around;
+    justify-content: center;
+    width: auto;
+    height: 75%;
+    font-style: underline;
+    /* background-color: lightblue;
+    border: 2px solid red; */
+}
